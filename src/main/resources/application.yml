@@ -1,0 +1,19 @@
+server:
+  port: 8082
+  contextPath: /api
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/bancodados?serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: root
+    password: root
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api-docs
