@@ -5,7 +5,7 @@
 
 porta da aplicacao:8082
 porta do docker: 9091
-servidor: dbmysql
+servidor: mysqlsamuel
 user: root
 password: root
 database: bancodados
